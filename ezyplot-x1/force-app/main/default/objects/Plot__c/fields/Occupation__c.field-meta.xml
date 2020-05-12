@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Occupation__c</fullName>
+    <externalId>false</externalId>
+    <label>Occupation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>owner-occupied</fullName>
+                <default>false</default>
+                <label>owner-occupied</label>
+            </value>
+            <value>
+                <fullName>rental (private)</fullName>
+                <default>false</default>
+                <label>rental (private)</label>
+            </value>
+            <value>
+                <fullName>rental (social)</fullName>
+                <default>false</default>
+                <label>rental (social)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

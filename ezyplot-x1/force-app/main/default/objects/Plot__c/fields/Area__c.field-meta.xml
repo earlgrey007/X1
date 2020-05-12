@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Area__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Area to which this plot falls under. Can NOT be changed afterwards so do not complete if unsure.</inlineHelpText>
+    <label>Area</label>
+    <referenceTo>Area_retrieval_status__c</referenceTo>
+    <relationshipLabel>Plots</relationshipLabel>
+    <relationshipName>Plots</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Construction_year__c</fullName>
+    <externalId>false</externalId>
+    <label>Construction year</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>before 1900</fullName>
+                <default>false</default>
+                <label>before 1900</label>
+            </value>
+            <value>
+                <fullName>1900-1929</fullName>
+                <default>false</default>
+                <label>1900-1929</label>
+            </value>
+            <value>
+                <fullName>1930-1949</fullName>
+                <default>false</default>
+                <label>1930-1949</label>
+            </value>
+            <value>
+                <fullName>1950-1966</fullName>
+                <default>false</default>
+                <label>1950-1966</label>
+            </value>
+            <value>
+                <fullName>1967-1975</fullName>
+                <default>false</default>
+                <label>1967-1975</label>
+            </value>
+            <value>
+                <fullName>1976-1982</fullName>
+                <default>false</default>
+                <label>1976-1982</label>
+            </value>
+            <value>
+                <fullName>1983-1990</fullName>
+                <default>false</default>
+                <label>1983-1990</label>
+            </value>
+            <value>
+                <fullName>1991-1995</fullName>
+                <default>false</default>
+                <label>1991-1995</label>
+            </value>
+            <value>
+                <fullName>1996-2002</fullName>
+                <default>false</default>
+                <label>1996-2002</label>
+            </value>
+            <value>
+                <fullName>2003-2006</fullName>
+                <default>false</default>
+                <label>2003-2006</label>
+            </value>
+            <value>
+                <fullName>2007-2011</fullName>
+                <default>false</default>
+                <label>2007-2011</label>
+            </value>
+            <value>
+                <fullName>2012 onwards</fullName>
+                <default>false</default>
+                <label>2012 onwards</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

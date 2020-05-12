@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Custom_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>Property_type__c</fields>
+    <fields>Total_floor_area__c</fields>
+    <fields>Price_paid__c</fields>
+    <fields>Price_paid_date__c</fields>
+    <fields>Tenure__c</fields>
+    <fields>Energy_rating__c</fields>
+    <label>Custom Compact Layout</label>
+</CompactLayout>

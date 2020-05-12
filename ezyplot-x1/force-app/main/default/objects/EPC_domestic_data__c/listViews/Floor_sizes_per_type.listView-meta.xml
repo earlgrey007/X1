@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Floor_sizes_per_type</fullName>
+    <columns>NAME</columns>
+    <columns>built_form__c</columns>
+    <columns>total_floor_area__c</columns>
+    <columns>tenure__c</columns>
+    <columns>floor_level__c</columns>
+    <columns>lodgement_date__c</columns>
+    <columns>number_habitable_rooms__c</columns>
+    <columns>construction_age_band__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>Floor sizes per type</label>
+</ListView>

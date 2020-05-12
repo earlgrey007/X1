@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>transaction_id__c</columns>
+    <columns>price_paid__c</columns>
+    <columns>transaction_date__c</columns>
+    <columns>postcode__c</columns>
+    <columns>property_type__c</columns>
+    <columns>new_build__c</columns>
+    <columns>estate_type__c</columns>
+    <columns>saon__c</columns>
+    <columns>paon__c</columns>
+    <columns>street__c</columns>
+    <columns>Plot__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Records</label>
+</ListView>
