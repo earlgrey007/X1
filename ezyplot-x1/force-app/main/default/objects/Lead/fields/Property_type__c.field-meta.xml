@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Property_type__c</fullName>
+    <externalId>false</externalId>
+    <label>Property type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>flat</fullName>
+                <default>false</default>
+                <label>Flat</label>
+            </value>
+            <value>
+                <fullName>terraced_house</fullName>
+                <default>false</default>
+                <label>Terraced house</label>
+            </value>
+            <value>
+                <fullName>semi_detached_house</fullName>
+                <default>false</default>
+                <label>Semi-detached house</label>
+            </value>
+            <value>
+                <fullName>detached_house</fullName>
+                <default>false</default>
+                <label>Detached house</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

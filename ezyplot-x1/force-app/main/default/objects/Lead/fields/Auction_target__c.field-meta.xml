@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auction_target__c</fullName>
+    <externalId>false</externalId>
+    <formula>if (OMV_long_lease__c &gt; 0, 
+    (OMV_long_lease__c *1-OMV_correction__c) - (Refurbishment__c + Lease_extension__c)/2,
+    if (OMV_estimate__c &gt; 0, 
+        (OMV_estimate__c *1-OMV_correction__c) - (Refurbishment__c + Lease_extension_estimate__c)/2,
+        0
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>OMV - (refurb + extension) /2</inlineHelpText>
+    <label>Auction target</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Currency</type>
+</CustomField>

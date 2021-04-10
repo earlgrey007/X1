@@ -4,7 +4,7 @@
     <active>true</active>
     <errorConditionFormula>NOT(
 OR(
-TEXT(Area_level__c) != &#39;Postcode&#39;,
+TEXT(Area_level__c) != &apos;Postcode&apos;,
 OR(
 ISNULL( Area__c),
 REGEX( Area__c, &quot;[a-zA-Z]\\d\\s\\d[a-zA-Z]{2}&quot;),

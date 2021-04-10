@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketed_on__c</fullName>
+    <externalId>false</externalId>
+    <label>Marketed on</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Onthemarket</fullName>
+                <default>false</default>
+                <label>Onthemarket</label>
+            </value>
+            <value>
+                <fullName>Rightmove</fullName>
+                <default>false</default>
+                <label>Rightmove</label>
+            </value>
+            <value>
+                <fullName>Zoopla</fullName>
+                <default>false</default>
+                <label>Zoopla</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

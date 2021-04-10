@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Area_level__c</fullName>
-    <defaultValue>&#39;Postcode&#39;</defaultValue>
+    <defaultValue>&apos;6_Postcode&apos;</defaultValue>
     <externalId>false</externalId>
     <label>Area level</label>
     <required>true</required>

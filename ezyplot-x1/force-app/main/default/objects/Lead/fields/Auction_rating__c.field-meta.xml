@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auction_rating__c</fullName>
+    <externalId>false</externalId>
+    <formula>if( ROI_Auction__c  &gt; 0.5,
+IMAGE(&apos;/resource/1615450010000/GraphicsPackNew/fatcow/farmfresh/16/flag_green.png&apos;,&apos;&gt;1&apos;),&apos;&apos;)
+
+&amp;&quot; &quot;&amp;
+if( ROI_Auction__c  &gt; 1.5,
+IMAGE(&apos;/resource/1615450010000/GraphicsPackNew/fatcow/farmfresh/16/flag_green.png&apos;,&apos;&gt;2&apos;),&apos;&apos;)
+
+&amp;&quot; &quot;&amp;
+if( ROI_Auction__c  &gt; 2.5,
+IMAGE(&apos;/resource/1615450010000/GraphicsPackNew/fatcow/farmfresh/16/flag_green.png&apos;,&apos;&gt;3&apos;),&apos;&apos;)
+
+&amp;&quot; &quot;&amp;
+if( ROI_Auction__c  &gt; 3.5,
+IMAGE(&apos;/resource/1615450010000/GraphicsPackNew/fatcow/farmfresh/16/flag_green.png&apos;,&apos;&gt;4&apos;),&apos;&apos;)
+
+&amp;&quot; &quot;&amp;
+if( ROI_Auction__c  &gt; 4.5,
+IMAGE(&apos;/resource/1615450010000/GraphicsPackNew/fatcow/farmfresh/16/flag_green.png&apos;,&apos;&gt;5&apos;),&apos;&apos;)
+
+&amp;&quot; &quot;&amp;
+if( ROI_Auction__c  &gt; 5.5,
+IMAGE(&apos;/resource/1615450010000/GraphicsPackNew/fatcow/farmfresh/16/flag_green.png&apos;,&apos;&gt;5&apos;),&apos;&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>1 flag is 100% auction ROI, 2 flags 200%, etc</inlineHelpText>
+    <label>Auction rating</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

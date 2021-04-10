@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Value_postc__c</fullName>
+    <externalId>false</externalId>
+    <formula>if( TEXT(Property_type__c) ==&apos;Flat-maisonette&apos;,Area__r.Flats_sold_psqft__c, Area__r.Non_flats_sold_psqft__c )
+*  Total_floor_area__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Value (postc)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

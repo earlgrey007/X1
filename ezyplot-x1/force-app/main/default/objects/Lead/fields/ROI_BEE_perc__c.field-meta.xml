@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ROI_BEE_perc__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Incl 3% SDLT + £3000 legals</inlineHelpText>
+    <label>ROI BEE (perc)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Percent</type>
+</CustomField>

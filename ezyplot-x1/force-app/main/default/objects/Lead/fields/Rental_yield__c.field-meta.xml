@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rental_yield__c</fullName>
+    <externalId>false</externalId>
+    <formula>((Rental_income__c - Holding_cost_PCM_LT__c) *12)/ (Asking__c + Refurbishment__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>After holding cos</inlineHelpText>
+    <label>Rental yield</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Percent</type>
+</CustomField>

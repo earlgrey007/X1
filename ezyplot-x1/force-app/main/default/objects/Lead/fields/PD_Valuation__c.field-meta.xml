@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PD_Valuation__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;https://propertydata.co.uk/value-house-flat?postcode=&quot; 
++ SUBSTITUTE(LastName , &apos; &apos;, &apos;%20&apos;)  
++ &quot;&amp;bedrooms=&quot; + TEXT(Bedrooms__c)
++ &quot;&amp;sqf=&quot; +  TEXT(Size_sqft__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>PD Valuation</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

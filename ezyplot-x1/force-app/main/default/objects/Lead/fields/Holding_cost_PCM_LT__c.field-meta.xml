@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Holding_cost_PCM_LT__c</fullName>
+    <externalId>false</externalId>
+    <formula>( (Asking__c+ Refurbishment__c)*0.75*0.04 +Ground_rent__c +Service_charge__c) /12</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>GR + SC + (asking + refurb) *.75% LTV at 4% PA</inlineHelpText>
+    <label>Holding cost PCM (LT)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Currency</type>
+</CustomField>

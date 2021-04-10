@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllOpenLeads</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.STREET</columns>
+    <columns>Postcode_district__c</columns>
+    <columns>Days_on_market__c</columns>
+    <columns>Years_remaining__c</columns>
+    <columns>Asking__c</columns>
+    <columns>OMV_long_lease__c</columns>
+    <columns>ROI_BEE_perc__c</columns>
+    <columns>OMV_estimate__c</columns>
+    <columns>ROI_BEE_estimate_perc__c</columns>
+    <columns>Notes_Depricated__c</columns>
+    <columns>LEAD.LAST_UPDATE</columns>
+    <columns>Marketing_string__c</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.URL</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Postcode_district__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>All Open Leads</label>
+</ListView>

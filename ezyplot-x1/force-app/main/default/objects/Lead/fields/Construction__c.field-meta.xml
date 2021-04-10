@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Construction__c</fullName>
+    <description>do NOT change fieldnames; these are  used in PropertyyData</description>
+    <externalId>false</externalId>
+    <label>Construction</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>pre_1914</fullName>
+                <default>false</default>
+                <label>Pre 1914</label>
+            </value>
+            <value>
+                <fullName>1914_2000</fullName>
+                <default>false</default>
+                <label>1914 - 2000</label>
+            </value>
+            <value>
+                <fullName>2000_onwards</fullName>
+                <default>false</default>
+                <label>2001-2021</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

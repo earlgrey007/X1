@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flats_sold_psqft__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>£ per sqft paid for flats over the last 18 months in this and 9 nearest postcodes</inlineHelpText>
+    <label>Flats sold £sqft</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

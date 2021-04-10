@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_entry</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>Auction_rating__c</columns>
+    <columns>Years_remaining__c</columns>
+    <columns>LEAD.URL</columns>
+    <columns>Bedrooms__c</columns>
+    <columns>Asking__c</columns>
+    <columns>OMV_long_lease__c</columns>
+    <columns>Size_sqft__c</columns>
+    <columns>Rental_income__c</columns>
+    <columns>Ground_rent__c</columns>
+    <columns>Service_charge__c</columns>
+    <columns>Notes__c</columns>
+    <columns>Marketing_status__c</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>Agent_account__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Years_remaining__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Asking__c</field>
+        <operation>greaterThan</operation>
+        <value>74000</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Unqualified</value>
+    </filters>
+    <filters>
+        <field>Marketing_status__c</field>
+        <operation>notEqual</operation>
+        <value>Removed</value>
+    </filters>
+    <label>Data entry</label>
+</ListView>

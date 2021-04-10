@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cash_required_Auction_flip__c</fullName>
+    <externalId>false</externalId>
+    <formula>Asking__c *0.33 +2000</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>70% bridge LTV +3% SDLT +2000 legals+pack</inlineHelpText>
+    <label>Cash required (Auction flip)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Currency</type>
+</CustomField>

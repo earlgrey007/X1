@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing_status__c</fullName>
+    <externalId>false</externalId>
+    <label>Marketing status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Available</fullName>
+                <default>true</default>
+                <label>Available</label>
+            </value>
+            <value>
+                <fullName>Back on market</fullName>
+                <default>false</default>
+                <label>Back on market</label>
+            </value>
+            <value>
+                <fullName>Reduced</fullName>
+                <default>false</default>
+                <label>Reduced</label>
+            </value>
+            <value>
+                <fullName>Offering</fullName>
+                <default>false</default>
+                <label>Offering</label>
+            </value>
+            <value>
+                <fullName>SSTC</fullName>
+                <default>false</default>
+                <label>SSTC</label>
+            </value>
+            <value>
+                <fullName>Ignore</fullName>
+                <default>false</default>
+                <label>Ignore</label>
+            </value>
+            <value>
+                <fullName>Removed</fullName>
+                <default>false</default>
+                <label>Removed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Property_type__c</fullName>
     <externalId>false</externalId>
     <label>Property type</label>
@@ -11,9 +11,39 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Value1</fullName>
+                <fullName>Flat-maisonette</fullName>
                 <default>false</default>
-                <label>Value1</label>
+                <label>Flat-maisonette</label>
+            </value>
+            <value>
+                <fullName>Detached</fullName>
+                <default>false</default>
+                <label>Detached</label>
+            </value>
+            <value>
+                <fullName>Semi-detached</fullName>
+                <default>false</default>
+                <label>Semi-detached</label>
+            </value>
+            <value>
+                <fullName>Terraced</fullName>
+                <default>false</default>
+                <label>Terraced</label>
+            </value>
+            <value>
+                <fullName>End-Terrace</fullName>
+                <default>false</default>
+                <label>End-Terrace</label>
+            </value>
+            <value>
+                <fullName>Mid-Terrace</fullName>
+                <default>false</default>
+                <label>Mid-Terrace</label>
+            </value>
+            <value>
+                <fullName>other</fullName>
+                <default>false</default>
+                <label>other</label>
             </value>
         </valueSetDefinition>
     </valueSet>

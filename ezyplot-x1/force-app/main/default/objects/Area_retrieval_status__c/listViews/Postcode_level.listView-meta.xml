@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Postcode_level</fullName>
+    <columns>NAME</columns>
+    <columns>Area_level__c</columns>
+    <columns>Area__c</columns>
+    <columns>Parent_area__c</columns>
+    <columns>LR_Trans_Data_Last_retrieved__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Area_level__c</field>
+        <operation>equals</operation>
+        <value>Postcode</value>
+    </filters>
+    <label>Postcode level</label>
+</ListView>

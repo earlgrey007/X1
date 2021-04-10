@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Holding_cost_PCM_ST__c</fullName>
+    <externalId>false</externalId>
+    <formula>( 0.70 * Asking__c * 0.10              /* brdge interest PA */
++ Ground_rent__c +Service_charge__c) 
+/12                                    /* per month */
++ 0.02 * 0.70 * Asking__c /4           /* spread bridge entry fee over 4 months*/</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Short term holding cost (eg pre auction): 4 months on a 70% LTV bridge @10% PA, incl 2% entry, EXCL refurb</inlineHelpText>
+    <label>Holding cost PCM (ST)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Currency</type>
+</CustomField>

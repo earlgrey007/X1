@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OMV_correction__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>In case property contains a regulated tenant or other reason</inlineHelpText>
+    <label>OMV correction</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Percent</type>
+</CustomField>

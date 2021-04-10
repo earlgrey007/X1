@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Age__c</fullName>
+    <externalId>false</externalId>
+    <formula>if( Days_on_market__c &lt; 30,
+IMAGE(&apos;/resource/1615450010000/GraphicsPackNew/fatcow/farmfresh/16/flag_blue.png&apos;,&apos;&lt;1&apos;),&apos;&apos;)
+
+&amp;&quot; &quot;&amp;
+if( Days_on_market__c &gt; 30,
+IMAGE(&apos;/resource/1615450010000/GraphicsPackNew/fatcow/farmfresh/16/flag_blue.png&apos;,&apos;&gt;1&apos;),&apos;&apos;)
+
+&amp;&quot; &quot;&amp;
+if( Days_on_market__c &gt; 60,
+IMAGE(&apos;/resource/1615450010000/GraphicsPackNew/fatcow/farmfresh/16/flag_blue.png&apos;,&apos;&gt;3&apos;),&apos;&apos;)
+
+&amp;&quot; &quot;&amp;
+if( Days_on_market__c  &gt; 90,
+IMAGE(&apos;/resource/1615450010000/GraphicsPackNew/fatcow/farmfresh/16/flag_green.png&apos;,&apos;&gt;3&apos;),&apos;&apos;)
+
+&amp;&quot; &quot;&amp;
+if( Days_on_market__c  &gt; 180,
+IMAGE(&apos;/resource/1615450010000/GraphicsPackNew/fatcow/farmfresh/16/flag_green.png&apos;,&apos;&gt;6&apos;),&apos;&apos;)
+
+&amp;&quot; &quot;&amp;
+if( Days_on_market__c  &gt; 360,
+IMAGE(&apos;/resource/1615450010000/GraphicsPackNew/fatcow/farmfresh/16/flag_green.png&apos;,&apos;&gt;12&apos;),&apos;&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Age in months</inlineHelpText>
+    <label>Age</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_market_ad__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Pulled from Property Data</inlineHelpText>
+    <label>Open market ad</label>
+    <referenceTo>PD_Ask_Data__c</referenceTo>
+    <relationshipLabel>LH Opp</relationshipLabel>
+    <relationshipName>LH_Opp</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

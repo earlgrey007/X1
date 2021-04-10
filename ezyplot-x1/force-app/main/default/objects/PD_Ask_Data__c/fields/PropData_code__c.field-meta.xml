@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PropData_code__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>number at end of URL after the website (eg &quot;/o/&apos;) indicator</inlineHelpText>
+    <label>PropData code</label>
+    <length>99</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

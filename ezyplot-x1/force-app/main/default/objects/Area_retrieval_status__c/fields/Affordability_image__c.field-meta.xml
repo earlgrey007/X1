@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Affordability_image__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Flat_price__c / Avg_household_income__c &lt; 5,
+IMAGE(&apos;/resource/1615471772000/square_green?&apos;,&apos;Affordabilty&apos;, 10, (5 - Flat_price__c / Avg_household_income__c) *30 ),
+&apos;&apos;
+)
+
+&amp;
+IF(Flat_price__c / Avg_household_income__c &gt; 5,
+IMAGE(&apos;/resource/1615474836000/square_red?&apos;,&apos;Affordabilty&apos;, 10, (Flat_price__c / Avg_household_income__c -5) *30),
+
+IF(Flat_price__c / Avg_household_income__c &gt; 10,
+IMAGE(&apos;/resource/1615474836000/square_red?&apos;,&apos;Affordabilty&apos;, 10, 5 *30),
+&apos;&apos;)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Affordability image</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

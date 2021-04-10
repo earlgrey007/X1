@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_paid_for_flats_1yr__c</fullName>
+    <externalId>false</externalId>
+    <formula>Flats_sold_1yr_total__c /  Flats_sold_1yr__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Average £/sqft for all FLATS within this area sold after 1/1/2000</inlineHelpText>
+    <label>Price paid for Flats (1yr)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

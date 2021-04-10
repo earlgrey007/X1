@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_flats_sold_1yr_total__c</fullName>
+    <externalId>false</externalId>
+    <label>Non-Flats sold (1yr, total)</label>
+    <summarizedField>Plot__c.GBP_sqft__c</summarizedField>
+    <summaryFilterItems>
+        <field>Plot__c.Price_paid_date__c</field>
+        <operation>greaterThan</operation>
+        <value>8/1/2019</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Plot__c.Property_type__c</field>
+        <operation>notEqual</operation>
+        <value>Flat-maisonette</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Plot__c.Area__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

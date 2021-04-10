@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ROI_Auction__c</fullName>
+    <externalId>false</externalId>
+    <formula>(Auction_target__c *0.98 - ( Asking__c  *1.03 -2000))
+/  Cash_required_Auction_flip__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Net ROCE after fees</inlineHelpText>
+    <label>ROI Auction</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Percent</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LR_Assoc_Description__c</fullName>
+    <description>LR: Associated Property Description</description>
+    <externalId>false</externalId>
+    <label>LR_Assoc_Description</label>
+    <length>99</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

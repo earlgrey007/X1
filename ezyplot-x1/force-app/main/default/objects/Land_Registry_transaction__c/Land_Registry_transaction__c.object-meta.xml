@@ -153,17 +153,17 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Land Registry transaction</label>
+    <label>LR transaction</label>
     <nameField>
-        <label>Land Registry transaction</label>
+        <label>LR transaction</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Land Registry transactions</pluralLabel>
+    <pluralLabel>LR transactions</pluralLabel>
     <profileSearchLayouts>
         <fields>NAME</fields>
-        <fields>00N3H000000K3mH</fields>
-        <fields>00N3H000000K3m4</fields>
+        <fields>price_paid__c</fields>
+        <fields>transaction_date__c</fields>
         <profileName>System Administrator</profileName>
     </profileSearchLayouts>
     <searchLayouts>

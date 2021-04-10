@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auction_targets</fullName>
+    <columns>LEAD.STATUS</columns>
+    <columns>FULL_NAME</columns>
+    <columns>Postcode_district__c</columns>
+    <columns>OMV_long_lease__c</columns>
+    <columns>OMV_estimate__c</columns>
+    <columns>Auction_target__c</columns>
+    <columns>Asking__c</columns>
+    <columns>Cash_required_Auction_flip__c</columns>
+    <columns>Auction_rating__c</columns>
+    <columns>ROI_BEE_perc__c</columns>
+    <columns>ROI_BEE_estimate_perc__c</columns>
+    <columns>Days_on_market__c</columns>
+    <columns>Years_remaining__c</columns>
+    <columns>LEAD.URL</columns>
+    <columns>LEAD.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Years_remaining__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>New,Analysis,Qualified</value>
+    </filters>
+    <filters>
+        <field>Asking__c</field>
+        <operation>greaterThan</operation>
+        <value>70000</value>
+    </filters>
+    <label>Auction targets</label>
+</ListView>

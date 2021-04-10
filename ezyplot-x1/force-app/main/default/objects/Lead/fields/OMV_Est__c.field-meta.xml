@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OMV_Est__c</fullName>
+    <externalId>false</externalId>
+    <formula>/* assume SQFT for flats as 99% of leasehold units are flats */
+
+If (Size_sqft__c &gt;0,
+
+/* use real sqft */
+Size_sqft__c * Postcode__r.Price_paid_for_flats_1yr__c, 
+
+/* guestimate sqft based on #bedrooms */
+(300+ 200* Bedrooms__c) * Postcode__r.Price_paid_for_flats_1yr__c
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Pull recent £sqft from related Area (=postcode)</inlineHelpText>
+    <label>OMV Est</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

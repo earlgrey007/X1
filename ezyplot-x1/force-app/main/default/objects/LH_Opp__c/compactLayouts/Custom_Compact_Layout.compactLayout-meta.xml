@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>URL_link_to_right_side__c</fields>
+    <fields>Agent_link_to_right_side__c</fields>
+    <fields>Days_on_market__c</fields>
+    <fields>Notes__c</fields>
+    <fields>Our_offer__c</fields>
+    <fields>Status__c</fields>
+    <fields>Contact__c</fields>
+    <fields>Followup_Action__c</fields>
+    <fields>Followup_Due_by__c</fields>
+    <label>Custom Compact Layout</label>
+</CompactLayout>

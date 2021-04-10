@@ -3,8 +3,10 @@
     <fullName>All1</fullName>
     <columns>NAME</columns>
     <columns>Parent_area__c</columns>
-    <columns>Area_level__c</columns>
-    <columns>LAST_UPDATE</columns>
+    <columns>Affordability_image__c</columns>
+    <columns>Affordability__c</columns>
+    <columns>Flat_price__c</columns>
+    <columns>Avg_household_income__c</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>
