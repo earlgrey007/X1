@@ -1,3 +1,4 @@
+//released
 public class Utils_PcodeGeolocation_parser {
 
     public String status {get;set;} 
